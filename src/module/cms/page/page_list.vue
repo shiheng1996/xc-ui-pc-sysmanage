@@ -37,7 +37,7 @@
           <template slot-scope="scope">
 
             <el-button
-              size="small"type="primary"
+              size="small" type="primary"
               @click="edit(scope.row.pageId)">编辑
             </el-button>
           </template>
@@ -78,8 +78,8 @@
   </div>
 </template>
 <script>
-  import * as cmsApi from '../api/cms'
-  import utilApi from '@/common/utils';
+import * as cmsApi from '../api/cms'
+import utilApi from '@/common/utils';
   export default{
     data(){
       return {
